@@ -5,11 +5,11 @@ session_start();
 <!doctype html>
 <html lang="en">
   <head>
- 
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <title>Student Create</title>
@@ -25,7 +25,7 @@ session_start();
                 <div class="card">
                     <div class="card-header">
                         <h4>AGREGAR ESTUDIANTE
-                            <a href="index.php" class="btn btn-danger float-end">ATRAS</a>
+                            <a href="index.php" class="btn btn-dark float-end">ATRAS</a>
                         </h4>
                     </div>
                     <div class="card-body">
@@ -48,7 +48,7 @@ session_start();
                                 <input type="text" name="course" class="form-control">
                             </div>
                             <div class="mb-3">
-                                <button type="submit" name="save_student" class="btn btn-primary">GUARDAR</button>
+                                <button type="submit" name="save_student" class="btn btn-dark">GUARDAR</button>
                             </div>
 
                         </form>
